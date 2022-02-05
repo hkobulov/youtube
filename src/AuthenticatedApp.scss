@@ -17,23 +17,23 @@ body {
     padding: 0 10px;
 }
 
-@font-face {
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: 400;
-    src: local(''),
-    url('./Assets/Fonts/mulish-v10-latin-regular.woff2') format('woff2'),
-    url('./Assets/Fonts/mulish-v10-latin-regular.woff') format('woff');
-}
+// @font-face {
+//     font-family: 'Mulish';
+//     font-style: normal;
+//     font-weight: 400;
+//     src: local(''),
+//     url('./Assets/Fonts/mulish-v10-latin-regular.woff2') format('woff2'),
+//     url('./Assets/Fonts/mulish-v10-latin-regular.woff') format('woff');
+// }
 
-@font-face {
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: 700;
-    src: local(''),
-    url('./Assets/Fonts/mulish-v10-latin-700.woff2') format('woff2'),
-    url('./Assets/Fonts/mulish-v10-latin-700.woff') format('woff'); 
-}
+// @font-face {
+//     font-family: 'Mulish';
+//     font-style: normal;
+//     font-weight: 700;
+//     src: local(''),
+//     url('./Assets/Fonts/mulish-v10-latin-700.woff2') format('woff2'),
+//     url('./Assets/Fonts/mulish-v10-latin-700.woff') format('woff'); 
+// }
 
 .header {
     display: flex;
