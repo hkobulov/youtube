@@ -16,7 +16,7 @@ function Video() {
         fetch('https://jsonplaceholder.typicode.com/photos')
         .then(response => response.json())
         .then(data => {setPhotos([data]); setPlaylist(data.slice(0, 30))})
-    }, [id])
+    }, [])
 
     React.useEffect(function singleVideo() {
         photos.forEach(item => {
