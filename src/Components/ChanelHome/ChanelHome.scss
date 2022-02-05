@@ -1,0 +1,55 @@
+.chanel-home {
+    display: flex;
+    align-items: center;
+}
+
+.chanel-home__area {
+    position: relative;
+}
+
+.chanel-home__area-img {
+    border-radius: 14px;
+}
+
+.chanel-home__area-time {
+    position: absolute;
+    right: 3%;
+    bottom: 7%;
+    padding: 5px 8px;
+    color: #FFF;
+    font-size: 14px;
+    border-radius: 12px;
+    background-color: rgba($color: #000000, $alpha: .3);
+}
+
+.chanel-home--inner {
+    max-width: 500px;
+    margin-left: 30px;
+}
+
+.chanel-home__heading {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    color: #19202C;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.chanel-home__desc {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: rgba($color: #000000, $alpha: .6);
+}
+
+.chanel-home__view {
+    color: #C2C2C2;
+    font-size: 16px;
+}
+
+.chanel-home__view:nth-child(2) {
+    display: inline;
+    margin-left: 5px;
+}

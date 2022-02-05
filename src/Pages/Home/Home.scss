@@ -1,0 +1,220 @@
+.home {
+    width: 100%;
+    padding: 10px;
+}
+
+.home-user {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    &:hover .home-user__img {
+        box-shadow: 0 0 1px 1px #FF0000;
+        transition: box-shadow .3s ease-in-out;
+    }
+}
+
+.home-user__img {
+    border-radius: 50%;
+}
+
+.home-user__name {
+    margin: 0;
+    margin-left: 20px;
+    padding: 0;
+    font-size: 26px;
+    font-weight: 700;
+    color: #19202C;
+    list-style-type: none;
+
+    &:hover {
+        color: #FF0000;
+        transition: color .3s ease-in-out;
+    }
+}
+
+.videos-list {
+    display: flex;
+    margin: -20px;
+    margin-bottom: 45px;
+    padding: 0;
+    list-style-type: none;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.videos-list__item {
+    margin: 20px;
+}
+
+.video-list__item-main-link {
+    color: #000;
+    text-decoration: none;
+}
+
+.videos-list__item-video-area {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.videos-list__item-video-img {
+    border-radius: 14px;
+}
+
+.videos-list__item-video-time {
+    position: absolute;
+    padding: 3px 6px;
+    right: 10%;
+    bottom: 10%;
+    font-size: 16px;
+    color: #fff;
+    background-color: #AA9E90;
+    border-radius: 12px;
+}
+
+.videos-list__item-heading {
+    margin: 0;
+    margin-bottom: 4px;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.videos-list__item-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.videos-list__item-list {
+    display: flex;
+    margin: -2px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.videos-list__item-views {
+    margin: 2px;
+    font-size: 13px;
+    color: #C2C2C2;
+}
+
+.videos-list__item-name {
+    text-decoration: none;
+    font-size: 13px;
+    color: #C2C2C2;
+}
+
+.recommended {
+    margin-bottom: 50px;
+}
+
+.recommended-list {
+    display: flex;
+    margin: -20px;
+    margin-bottom: 45px;
+    padding: 0;
+    list-style-type: none;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.recommended-list__item {
+    margin: 20px;
+}
+
+.recommended-list__main-link, .videos-list__main-link {
+    text-decoration: none;
+    color: #19202C;
+}
+
+.recommended-list__item-video-area {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.recommended-list__item-video-img {
+    border-radius: 14px;
+}
+
+.recommended-list__item-video-time {
+    position: absolute;
+    padding: 3px 6px;
+    right: 10%;
+    bottom: 10%;
+    font-size: 16px;
+    color: #fff;
+    background-color: #AA9E90;
+    border-radius: 12px;
+}
+
+.recommended-list__item-heading {
+    margin: 0;
+    margin-bottom: 4px;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.recommended-list__item-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommended-list__item-list {
+    display: flex;
+    margin: -2px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.recommended-list__item-views {
+    margin: 2px;
+    font-size: 13px;
+    color: #C2C2C2;
+}
+
+.recommended-list__item-name {
+    text-decoration: none;
+    font-size: 13px;
+    color: #C2C2C2;
+}
+
+.food-drink__top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.food-drink__heading {
+    margin: 0;
+    margin-left: 20px;
+    padding: 0;
+    font-size: 26px;
+    font-weight: 700;
+
+}
+
+.food-drink__info {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #C2C2C2;
+}
+
+
+// Scrollbar
+
+.videos-list::-webkit-scrollbar, .recommended-list::-webkit-scrollbar {
+    height: 5px;
+}
+
+.videos-list::-webkit-scrollbar-thumb, .recommended-list::-webkit-scrollbar-thumb {
+    width: 10px;
+    background: rgb(136, 3, 3);
+    border-radius: 20px;
+}
+
+.videos-list::-webkit-scrollbar-track, .recommended-list::-webkit-scrollbar-track {
+    background-color: transparent;
+}

@@ -1,0 +1,104 @@
+.sitebar {
+    max-width: 400px;
+    padding: 10px 20px;
+}
+
+.nav-list {
+    margin: -15px;
+    margin-bottom: 50px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav-list__item {
+    margin: 15px;
+}
+
+.nav-list__item-link {
+    display: flex;
+    align-items: center;
+    color: #C2C2C2;
+    text-decoration: none;
+
+    &:hover {
+        color: #FF0000;
+        transition: color .3s ease-in-out;
+    }
+
+    &--active{
+        color: #FF0000;
+    }
+
+    &--active .nav-list__item-heading {
+        color: #FF0000;
+    }
+}
+
+.nav-list__item-heading {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #898989;
+
+    &:hover {
+        color: #FF0000;
+        transition: color .3s ease-in-out;
+    }
+}
+
+// Users
+
+.subscriptions-list {
+    margin: -7px;
+    margin-bottom: 150px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.subscriptions-list__item {
+    margin: 7px;
+}
+
+.subscriptions-list__item-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    &:hover .subscriptions-list__item-img {
+        box-shadow: 0 0 .5px .5px #FF0000;
+        transition: box-shadow .3s ease-in-out;
+    }
+}
+
+.subscriptions-list__item-img {
+    border-radius: 50%;
+}
+
+.subscriptions-list__item-name {
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+    color: #898989;
+    white-space: nowrap;
+
+    &:hover {
+        color: #FF0000;
+        transition: color .3s ease-in-out;
+    }
+}
+
+.log-out-btn {
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    background-color: #FF0000;
+    border-radius: 25px;
+    color: #FFF;
+
+    &:hover {
+        transform: scale(1.05);
+        transition: transform .3s ease-in-out;
+    }
+}

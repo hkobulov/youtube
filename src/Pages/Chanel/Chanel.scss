@@ -1,0 +1,144 @@
+.chanel {
+    width: 100%;
+    padding: 10px;
+}
+
+.chanel-bg {
+    width: 100%;
+    height: 280px;
+    margin-bottom: 30px;
+    flex-shrink: 0;
+    border-radius: 12px;
+}
+
+.chanel-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 20px;
+}
+
+.chanel-info__left {
+    display: flex;
+    align-items: center;
+}
+
+.chanel-info__left-img {
+    border-radius: 50%;
+}
+
+.chanel-info__left-area {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.chanel-info__left-username {
+    display: block;
+    margin-bottom: 2px;
+    color: #19202C;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.chanel-info__left-followers {
+    color: #C2C2C2;
+    font-size: 13px;
+}
+
+.chanel-info__right {
+    display: flex;
+    align-items: center;
+}
+
+.chanel-info__right-subs {
+    margin-left: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFF;
+    border-radius: 20px;
+    background-color: #FF0000;
+}
+
+.chanel-main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.chanel-main__left-list {
+    display: flex;
+    margin: -25px;
+    margin-bottom: 30px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.chanel-main__left-item {
+    margin: 25px;
+}
+
+.chanel-main__left-link {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+
+    &:hover {
+        color: #FF0000;
+        transition: color .3s ease-in-out;
+    }
+
+    &--active {
+        color: #FF0000;
+    }
+}
+
+.chanel-info__right {
+    margin-left: auto;
+}
+
+.chanel-main__rigth-rec {
+    display: inline-block;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #C2C2C2;
+}
+
+.chanel-main__right-list {
+    margin: -15px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.chanel-main__right-list__item {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+
+.chanel-main__right-list__img {
+    border-radius: 50%;
+}
+
+.chanel-main__right-list__name {
+    margin: 0;
+    margin-left: 20px;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+// MARGARET
+
+.margaret {
+    max-width: 1920px;
+}
+
+.margaret-heading {
+    margin: 0;
+}
+
+.videos-list__main-link {
+    text-decoration: none;
+    color: #19202C;
+}

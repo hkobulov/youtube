@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'Mulish', 'Arial', sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: normal;
+}
+
+#root {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('./Assets/Fonts/mulish-v10-latin-regular.woff2') format('woff2'),
+    url('./Assets/Fonts/mulish-v10-latin-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+    url('./Assets/Fonts/mulish-v10-latin-700.woff2') format('woff2'),
+    url('./Assets/Fonts/mulish-v10-latin-700.woff') format('woff'); 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-hamburger {
+    border: none;
+    background-color: transparent;
+}
+
+.header-main-link {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000;
+    
+    &:hover {
+        opacity: .8;
+        transition: opacity .3s ease-in-out;
+    }
+}
+
+.header-form {
+    margin-left: 55px;
+}
+
+.header-form__input {
+    max-width: 500px;
+    padding: 10px;
+    border: none;
+    border-radius: 22px;
+    background-color: #EBEBEB;
+}
+
+// Header right
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.link-list {
+    display: flex;
+    align-items: center;
+    margin: -25px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.link-list-item {
+    margin: 25px;
+}
+
+.header-user-img {
+    margin-left: 40px;
+    border-radius: 50%;
+    
+    &:hover {
+        transform: scale(1.07);
+        transition: transform .3s ease-in-out;
+    }
+}
+
+.main {
+    display: flex;
+}
